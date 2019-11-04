@@ -38,7 +38,7 @@
 
   <div class="field">
     <%= form.label :dateOfBirthday %>
-    <%= form.date_select :dateOfBirthday %>
+    <%= form.date_select :dateOfBirthday, :start_year=>1970,:end_year=>2030 %>
   </div>
 
   <div class="actions">
