@@ -4,9 +4,10 @@ class CreateTeachers < ActiveRecord::Migration[6.0]
       t.string :fist_name
       t.string :last_name
       t.string :gender
-      t.string :maritus_status
+      t.string :status
       t.integer :age
-      t.date :dateOfBirthday
+      t.date :dob
+      t.string :email
 
       t.timestamps
     end

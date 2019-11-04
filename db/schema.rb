@@ -16,9 +16,10 @@ ActiveRecord::Schema.define(version: 2019_11_03_223133) do
     t.string "fist_name"
     t.string "last_name"
     t.string "gender"
-    t.string "maritus_status"
+    t.string "status"
     t.integer "age"
-    t.date "dateOfBirthday"
+    t.date "dob"
+    t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
